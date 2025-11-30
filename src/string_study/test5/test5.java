@@ -20,7 +20,7 @@ public class test5 {
         System.out.println(shieldIdNumber(idNumber));
         idNumberInfo(idNumber);*/
         String[] dirtyWords = {"TMD","CNM","SB","MD","MLGB"};
-        System.out.println("请输入想说的话：");
+        System.out.println("请发言：");
         String talk = sc.nextLine();
         System.out.println(shieldDirtyWords(talk, dirtyWords));
     }
